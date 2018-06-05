@@ -27,7 +27,7 @@ body{
 
 }
 .section-2{
-    background: #ffaadd;
+    background: #ffffff url(../img/layer1.png) no-repeat right bottom;;
 }
 .section-3{
     background: aliceblue;
@@ -122,12 +122,29 @@ ul{
 }
 /*menu end*/
 
-/*main fage*/
+/*page 2 history*/
 
+.history__item-img2{
+    width: 570px;
+    margin-top: 85px;
+    box-sizing: border-box;
+}
+.history__title_page2{
+    margin-top: 300px;
+}
 
+.flex-page2{
+    display: flex;
+    justify-content: space-between;
+}
 
+.history__item-title2{
+    font-size: 12px;
+}
 
-
+.history__h1-page2{
+    font-size: 20px
+}
 
 
 
