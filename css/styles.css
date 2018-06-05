@@ -26,14 +26,18 @@ body{
     background: #ff5252 url(../img/layer1.png) no-repeat right bottom;
 
 }
+/* Page 2 */
 .section-2{
-    background: #ffffff url(../img/layer1.png) no-repeat right bottom;;
+    background: #ffffff url(../img/section-2-bg.png) no-repeat right center;
 }
+/* Page 3 */
+
 .section-3{
-    background: aliceblue;
+    background: #ffffff url(../img/section-3-bg.png) no-repeat left center;
 }
 .section-4{
-    background: darkcyan;
+    background: #ffffff url(../img/section-4-bg.png) no-repeat center;
+    background-size: contain;
 }
 .section-5{
     background: coral;
@@ -122,31 +126,26 @@ ul{
 }
 /*menu end*/
 
-/*page 2 history*/
-
-.history__item-img2{
-    width: 570px;
-    margin-top: 85px;
-    box-sizing: border-box;
+/* Base Classes */
+.page__title {
+    font-size: 20px;
+    color: #ff5252;
 }
-.history__title_page2{
-    margin-top: 300px;
-}
-
-.flex-page2{
-    display: flex;
-    justify-content: space-between;
-}
-
-.history__item-title2{
+.page__text{
     font-size: 12px;
+    color: #181818;
 }
-
-.history__h1-page2{
-    font-size: 20px
+.page__image img{
+    max-width: 100%;
 }
-
-
+.flex-ac {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pt-100{
+    padding-top: 100px;
+}
 
 
 
