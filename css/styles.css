@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'DejaVu Sans';
+}
+
+
+.section-1{
+    background: #ff5252 url(../img/layer1.png) no-repeat right bottom;
+
+}
+.section-2{
+    background: #ffaadd;
+}
+.section-3{
+    background: aliceblue;
+}
+.section-4{
+    background: darkcyan;
+}
+.section-5{
+    background: coral;
+}
+.section-6{
+    background: rosybrown;
+}
+.section-7{
+    background: bisque;
+}
+.section-8{
+    background: lightpink;
+}
+.section-9{
+    background: palegreen;
+}
+.section-10{
+    background: mediumaquamarine;
+}
+.section-11{
+    background: azure;
+}
+.section-12{
+    background: thistle;
+}
+
+
+ul{
+    list-style-type: none;
+    
+}
+
+#header{
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-main{
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.burger{
+    margin-top: 40px;
+    margin-right: 85px;
+}
+.fa-th.active{
+    display: none;
+}
+.fa-times{
+    display: none;
+}
+.fa-times.active{
+    display: block;
+}
+/*menu*/
+.menu{
+    background-color: #fff;
+    position: fixed;
+    right: 100%;
+    width: 100%;
+    z-index: 999;
+    top: 85px;
+    transition: 300ms;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 85px;
+    border-top: 1px solid rgba(189, 195, 199, 0.5);
+}
+.menu__item{
+    width: 20%;
+    flex-shrink: 0;
+}
+.menu__item-title{
+    font-weight: bold;
+}
+}
+.menu.active{
+    right: 0;
+}
+/*menu end*/
+
+/*main fage*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
