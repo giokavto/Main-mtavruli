@@ -26,24 +26,31 @@ body{
     background: #ff5252 url(../img/layer1.png) no-repeat right bottom;
 
 }
+/* Page 2 */
 .section-2{
-    background: #ffaadd;
+    background: #ffffff url(../img/section-2-bg.png) no-repeat right center;
 }
+/* Page 3 */
+
 .section-3{
-    background: aliceblue;
+    background: #ffffff url(../img/section-3-bg.png) no-repeat left center;
 }
+/*page 4*/
 .section-4{
-    background: darkcyan;
+    background: #ffffff url(../img/section-4-bg.png) no-repeat bottom center;
+    /*background-size: contain;*/
 }
+/*page 5*/
 .section-5{
-    background: coral;
+    background: #ffffff url(../img/section-5-bg.png) no-repeat right center;
 }
+/*page */
 .section-6{display: block !important;padding: 0 !important;height: auto !important;min-height: 100vh;}
 .section-7{
     background: bisque;
 }
 .section-8{
-    background: lightpink;
+    background: #ffffff;
 }
 .section-9{
     background: palegreen;
@@ -225,3 +232,42 @@ body{
     color: #000;
     font-size: 17px;
 }
+
+
+/* Base Classes */
+.page__title {
+    font-size: 20px;
+    color: #ff5252;
+}
+.page__text{
+    font-size: 12px;
+    color: #181818;
+}
+.page__image img{
+    max-width: 100%;
+}
+.flex-ac {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pt-250{
+    padding-top: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
