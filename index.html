@@ -28,7 +28,7 @@
         </div>
     </header>
     <!-- navigatio -->
-    <nav class="menu anim">
+    <nav class="menu anim container">
         <div class="menu__item">
             <div class="menu__item-title">შესახებ</div>
         </div>
@@ -63,7 +63,9 @@
                 <div class="main-page">
                     <h1 class="mtavruli-text-main">მთავრული</h1>
                     <div class="mtavruli-text-main2">
-                        <p></p>
+                        <p >
+                            მთავრული ეწოდება თანამედროვე ქართული დამწერლობის ზედა რეგისტრის ასოებს, რომელიც ძირითადად გამოიყენება სათაურების დასაწერად და მნიშვნელოვანი ტექსტების გამოსაყოფად. ეს ასო-ნიშები 2018 წლამდე ოფიციალურ სტანდარტში (unicode) მოთავსეული არ იყო, რაც ბევრ პრობლემას ქმნიდა. საიტზე ამ თემის გარშემო დეტალებს განვიხილავთ.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -72,7 +74,30 @@
         <section class="section section-3">Section 3</section>
         <section class="section section-4">Section 4</section>
         <section class="section section-5">Section 5</section>
-        <section class="section section-6">Section 6</section>
+        <section class="section section-6 container">
+            <article class="aso-nishani">
+                <h1>ყველა ქართული ასო-ნიშანი</h1>
+                <p>აქ მოცემულია ყველა ქართული ასო-ნიშანი და სიმბოლო რომელიც უნიკოდის მიერაა მხარდაჭერილი. ცხრილში მოცემულია დიაკრიტიკული ნიშებიც, რომელიც საქართველოში არსებული სხვადასხვა ენისათვის გამოიყენება. მათ ცალკე კოდები არ აქვთ მინიჭებული თუმცა მათი გენერირება კომბინირებადი ნიშების მეშვეობით არის შესაძლებელი.</p>
+                <div id="btns">
+                    <button class="btn my-btn active" data-n="1">ტაბი 1 სახელი</button>
+                    <button class="btn my-btn" data-n="2">ტაბი 2 სახელი</button>
+                    <button class="btn my-btn" data-n="3">ტაბი 3 სახელი</button>
+                    <div class="right-filt" >
+                        <h2>
+                            <span>Ⴢ</span>
+                            დან
+                            <span>ⴟ</span>
+                            მდე
+                        </h2>
+                    </div>
+                </div>
+                <div class="old-letters">
+                    <ul id="letter_list">
+                       
+                    </ul>
+                </div>    
+            </article>
+        </section>
         <section class="section section-7">Section 7</section>
         <section class="section section-8">Section 8</section>
         <section class="section section-9">Section 9</section>
@@ -101,5 +126,54 @@
         crossorigin="anonymous"></script>
 <script src="js/jquery.fullpage.min.js"></script>
 <script src="js/custom.js"></script>
+<script>
+    var let_list = document.getElementById("letter_list");
+    var btns = document.getElementById('btns');
+    var abc1 = ["Ⴀ", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
+    var abc2 = ["Ⴀ", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
+    var abc3 = ["Ⴀ", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
+
+
+    for(let i = 0; i < btns.children.length; i++){
+        btns.children[i].addEventListener('click', function() {
+                document.querySelector('.my-btn.active').classList.remove("active");
+                this.classList += " active";   
+                if(this.dataset.n == 1){
+                    letters1()
+                } else if(this.dataset.n == 2){
+                    letters2()
+
+                } else{
+                    letters3()
+                }
+            }
+        )
+    }
+
+    for(let i = 0; i < abc1.length; i++){
+        let_list.innerHTML +=  '<ul class="let-i"><li class="letter">' + abc1[i] + "</li><li class='let_n'>2D01</li></ul>";
+    }
+
+    function letters1(){
+        let_list.innerHTML = "";
+        for(let i = 0; i < abc1.length; i++){
+            let_list.innerHTML +=  '<ul class="let-i"><li class="letter">' + abc1[i] + "</li><li class='let_n'>2D01</li></ul>";
+        }
+    }
+
+    function letters2(){
+        let_list.innerHTML = "";
+        for(let i = 0; i < abc2.length; i++){            
+            let_list.innerHTML +=  '<ul class="let-i"><li class="letter">' + abc2[i] + "</li><li class='let_n'>2D02</li></ul>";
+        }
+    }
+
+    function letters3(){
+        let_list.innerHTML = "";
+        for(let i = 0; i < abc3.length; i++){
+            let_list.innerHTML +=  '<ul class="let-i"><li class="letter">' + abc3[i] + "</li><li class='let_n'>2D03</li></ul>";
+        }
+    }
+</script>
 </body>
 </html>
