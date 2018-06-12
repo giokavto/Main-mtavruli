@@ -260,8 +260,16 @@ body{
 .text-white{
     color: #e3e3e4;
 }
+.pb-20{
+    padding-bottom: 20px;
+}
 
-
+.menu__nav-item{
+    font-size: 12px;
+}
+.menu__item-title{
+    font-size: 14px;
+}
 /*page 7*/
 .img-unicode{
     margin-bottom: 20px;
@@ -272,7 +280,18 @@ body{
 .icons-dowload{
     margin-top: 20px;
 }
-
+.icons-dowload{
+    display: flex;
+}
+.download-icon{
+    width: 35px;
+    height: 35px;
+    background-color: #bdc3c7;
+}
+.download-icon img{
+    padding: 7px 7px;
+    box-sizing: border-box;
+}
 /*page 10*/
 
 .pt-160{
