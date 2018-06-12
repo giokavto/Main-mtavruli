@@ -46,23 +46,25 @@ body{
 }
 /*page */
 .section-6{display: block !important;padding: 0 !important;height: auto !important;min-height: 100vh;}
+
+/*page 7*/
 .section-7{
-    background: bisque;
+    background: #ffffff;
 }
 .section-8{
     background: #ffffff;
 }
 .section-9{
-    background: palegreen;
+    background: #ffffff url(../img/section-9-bg.png) no-repeat left center;
 }
 .section-10{
-    background: mediumaquamarine;
+    background: #ffffff url(../img/section-10-bg.png) no-repeat left center;
 }
 .section-11{
-    background: azure;
+    background: #ffffff url(../img/section-11-bg.png) no-repeat left center;
 }
 .section-12{
-    background: thistle;
+    background: #ffffff url(../img/section-12-bg.png) no-repeat right center;;
 }
 
 
@@ -238,6 +240,7 @@ body{
 .page__title {
     font-size: 20px;
     color: #ff5252;
+    margin-bottom: 20px;
 }
 .page__text{
     font-size: 12px;
@@ -254,16 +257,27 @@ body{
 .pt-250{
     padding-top: 250px;
 }
+.text-white{
+    color: #e3e3e4;
+}
 
 
+/*page 7*/
+.img-unicode{
+    margin-bottom: 20px;
+}
 
+/*page 9*/
 
+.icons-dowload{
+    margin-top: 20px;
+}
 
+/*page 10*/
 
-
-
-
-
+.pt-160{
+    padding-top: 160px;
+}
 
 
 
