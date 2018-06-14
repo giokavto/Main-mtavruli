@@ -94,6 +94,13 @@ body{
 .burger{
     margin-top: 40px;
     margin-right: 85px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.bg.active{
+    background: #fff;
+    padding-bottom: 29px;
 }
 .fa-th.active{
     display: none;
@@ -298,9 +305,20 @@ body{
     padding-top: 160px;
 }
 
-
-
-
-
+/*Animations*/
+.animate-1, .animate-2{
+    transform: translateY(-500%);
+}
+.section.active .animate-1{
+    transform: translateY(0%);
+    transition: cubic-bezier(0.42, 0, 0.61, 1.66) 800ms;
+}
+.section.active .animate-2{
+    transform: translateY(0%);
+    transition: linear 1100ms;
+}
+.section{
+    overflow: hidden;
+}
 
 
