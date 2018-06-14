@@ -273,6 +273,7 @@ body{
 
 .menu__nav-item{
     font-size: 12px;
+    padding-bottom: 10px;
 }
 .menu__item-title{
     font-size: 14px;

@@ -1,5 +1,8 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
+        menu: '#menu',
+        lockAnchors: true,
+        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighthPage'],
         navigation: true,
         navigationPosition: 'right',
     });
