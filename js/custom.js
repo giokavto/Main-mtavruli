@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        menu: '#menu',
-        lockAnchors: true,
-        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighthPage'],
+        // menu: '#menu',
+        // lockAnchors: true,
+        // anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighthPage'],
         navigation: true,
         navigationPosition: 'right',
     });
@@ -18,6 +18,13 @@ $(document).ready(function() {
     });
     $(".menu__item").click(function() {
         $(".anim").toggleClass("active");
+    });
+//bottom
+ $("#bottom").click(function() {
+        $(".anim-bottom").toggleClass("active");
+    });
+    $(".resourse-down").click(function() {
+        $(".anim-bottom").toggleClass("active");
     });
 
     //Scroll to ID
