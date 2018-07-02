@@ -89,15 +89,16 @@ body{
 }
 
 .text-main{
-    margin-left: 85px;
+    /*margin-left: 85px;*/
     margin-top: 40px;
 }
 
 .burger{
     margin-top: 40px;
-    margin-right: 85px;
+   /* margin-right: 85px;*/
     cursor: pointer;
     z-index: 999;
+    right: 0;
 }
 
 .bg.active{
@@ -112,6 +113,12 @@ body{
 }
 .fa-times.active{
     display: block;
+}
+.fas{
+    background: #fff;
+    color: #ff5252;
+    text-align: center;
+    padding: 3px;
 }
 /*menu*/
 .menu{
@@ -255,11 +262,13 @@ body{
 
 .page__title {
     font-size: 20px;
+    /*line-height: 3px;*/
     color: #ff5252;
     margin-bottom: 20px;
 }
 .page__text{
     font-size: 12px;
+    line-height: 15px;
     color: #181818;
 }
 .page__image img{
@@ -273,6 +282,9 @@ body{
 }
 .pt-250{
     padding-top: 250px;
+}
+.pt-220{
+    padding-top: 220px;
 }
 .text__page-4{
     color: #e3e3e4;
@@ -315,8 +327,8 @@ body{
 }
 /*page 10*/
 
-.pt-160{
-    padding-top: 160px;
+.pt-120{
+    padding-top: 120px;
 }
 
 /*Animations*/
@@ -339,17 +351,29 @@ body{
 .resources{
     text-align: center;
     /*margin-top: 210px;*/
-    transform: translate(0, 400%);
+   /* transform: translate(0, 400%);*/
+   display: block;
+   /*bottom: 0;*/
+   position: absolute;
+   left: 0;
+   width: 100%;
+   transform: translateY(0%);
 }
 .resources.active {
     display: none;
 }
 
 .resourse-down{
-    text-align: center;
-    margin-top: 85px;
-    display: none;
-    /*transform: translate(0, 180%);*/
+    /*text-align: center;*/
+    /*margin-top: 85px;*/
+    
+   /*display: block;*/
+   /*bottom: 0;*/
+   /*position: absolute;*/
+   /*left: 0;*/
+   /*width: 100%;*/
+   /*transform: translateY(0%);*/
+   display: none;
 }
 .resourse-down.active{
     display: block;
@@ -358,9 +382,14 @@ body{
 .db{
     display: block;
     text-align: center;
-    margin-top: -25px;
+    /*margin-top: -25px;*/
     background: #fff;
     background-color: #fff;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    transform: translateY(0%);
     display: none;
     /*transform: translate(0, 60%);*/
 }

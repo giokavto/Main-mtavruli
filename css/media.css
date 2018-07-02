@@ -10,10 +10,11 @@
     padding-top: 100px;
    }
    .resources{
-    transform: translate(0, 500%);
+    /*transform: translate(0, 500%);*/
+    bottom: 0;
    }
    .resourse-down{
-    margin-top: 150px;
+    /*margin-top: 150px;*/
    }
    .text__page-4{
     color: #000000;
@@ -48,10 +49,10 @@
     display: block;
   }
   .resources {
-    margin-top: -120px;
+    /*margin-top: -120px;*/
   }
   .resourse-down {
-    margin-top: 10px;
+    /*margin-top: 10px;*/
   }
   .db{
     margin-top: -80px;
@@ -60,10 +61,11 @@
 
 @media only screen and (min-width: 1300px) {
     .db{
-        margin-top: 0;
+        /*margin-top: 0;*/
     }
     .resources{
-        transform: translate(0, 400%);
+        /*transform: translate(0, 400%);*/
+        bottom: 0
     }
 }
 @media only screen and (min-width: 1400px) {
@@ -76,10 +78,10 @@
         background-size: cover;
     }
     .page__title{
-        font-size: 35px;
+        font-size: 27px;
     }
     .page__text{
-        font-size: 17px;
+        font-size: 16px;
     }
     .text-white{
         font-size: 14px;
@@ -88,95 +90,95 @@
         transform: translate(0, 180%);
     }*/
     .resourse-down{
-        margin-top: 0;
-        transform: translate(0, 40%);
+        /*margin-top: 0;*/
+        /*transform: translate(0, 40%);*/
     }
     .db{
-        margin-top: 0;
-        transform: translate(0, 10%);
+        /*margin-top: 0;*/
+        /*transform: translate(0, 10%);*/
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .db{
-        margin-top: 0;
-        transform: translate(0, 15%);
+        /*margin-top: 0;*/
+        /*transform: translate(0, 15%);*/
     }
     .resources{
-        transform: translate(0, 350%);
+        /*transform: translate(0, 350%);*/
     }
 }
 @media only screen and (min-width: 1700px) {
     .resourse-down{
-        margin-top: 0;
-        transform: translate(0, 190%);
+       /* margin-top: 0;
+        transform: translate(0, 190%);*/
     }
     .db{
-        margin-top: -15px;
-        transform: translate(0, 60%);
+        /*margin-top: -15px;
+        transform: translate(0, 60%);*/
     }
     .bottom-item{
        /*padding-top: 70px*/;
-       padding-bottom: 100px;
+       /*padding-bottom: 100px;*/
     }
     .resources{
-        transform: translate(0, 430%);
+        /*transform: translate(0, 430%);*/
     }
 }
 @media only screen and (min-width: 1800px) {
     .resources{
-        transform: translate(0, 500%);
+        /*transform: translate(0, 500%);*/
     }
 @media only screen and (min-width: 2000px) {
     .page__title{
-        font-size: 50px;
+        /*font-size: 50px;*/
     }
     .page__text{
-        font-size: 25px;
+        /*font-size: 25px;*/
     }
     .text-white{
-        font-size: 20px;
+        /*font-size: 20px;*/
     }
      .resources{
-        transform: translate(0, 470%);
+        /*transform: translate(0, 470%);*/
     }
     .resourse-down{
-        margin-top: 0;
-        transform: translate(0, 250%);
+        /*margin-top: 0;*/
+        /*transform: translate(0, 250%);*/
     }
 }
 @media only screen and (min-width: 2200px) {
     .db{
-        margin-top: -25px;
-        transform: translate(0, 70%);
+        /*margin-top: -25px;*/
+        /*transform: translate(0, 70%);*/
     }
     .bottom-item{
        /*padding-top: 70px*/;
-       padding-bottom: 150px;
+       /*padding-bottom: 150px;*/
     }
     .resources{
-        transform: translate(0, 550%);
+        /*transform: translate(0, 550%);*/
     }
      .resourse-down{
         margin-top: 0;
-        transform: translate(0, 280%);
+        /*transform: translate(0, 280%);*/
     }
 }
 @media only screen and (min-width: 2300px) {
     .db{
         /*margin-top: 40px;*/
-        transform: translate(0, 100%);
+        /*transform: translate(0, 100%);*/
     }
     .bottom-item{
        /*padding-top: 70px*/;
-       padding-bottom: 150px;
+       /*padding-bottom: 150px;*/
     }
     .resources{
-        transform: translate(0, 700%);
+        /*transform: translate(0, 700%);*/
     }
      .resourse-down{
-        margin-top: 0;
-        transform: translate(0, 475%);
+        /*margin-top: 0;*/
+        /*transform: translate(0, 475%);*/
     }
 }
 
