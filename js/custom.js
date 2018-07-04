@@ -1,8 +1,12 @@
+let html = document.querySelector('html');
 $(document).ready(function() {
-    $('#fullpage').fullpage({
-        navigation: true,
-        navigationPosition: 'right',
-    });
+
+    if(html.clientWidth > 576){
+        $('#fullpage').fullpage({
+            navigation: true,
+            navigationPosition: 'right',
+        });
+    }   
 });
 
 
