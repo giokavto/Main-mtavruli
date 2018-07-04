@@ -18,7 +18,7 @@ a:hover {
 }
 
 body{
-    font-family: 'DejaVu Sans';
+    font-family: 'Mtavruli';
 }
 
 
@@ -91,6 +91,7 @@ body{
 .text-main{
     /*margin-left: 85px;*/
     margin-top: 40px;
+    font-family: 'Mtavruli Bold';
 }
 
 .burger{
@@ -140,6 +141,7 @@ body{
 }
 .menu__item-title{
     font-weight: bold;
+    font-family: 'Mtavruli Bold';
 }
 
 .menu.active{
@@ -153,6 +155,7 @@ body{
     color: #fff;
     font-size: 180px;
     text-align: center;
+    font-family: 'Mtavruli Bold';
 }
 .mtavruli-text-main2 {
     width: 58%;
@@ -160,6 +163,7 @@ body{
     margin: 0 auto;
     color: #fff;
     font-size: 14px;
+    font-family: 'Mtavruli';
 }
 .aso-nishani p {
     font-size: 12pt;
@@ -265,11 +269,13 @@ body{
     /*line-height: 3px;*/
     color: #ff5252;
     margin-bottom: 20px;
+    font-family: 'Mtavruli Bold';
 }
 .page__text{
     font-size: 12px;
-    line-height: 15px;
+    line-height: 17px;
     color: #181818;
+    font-family: 'Mtavruli';
 }
 .page__image img{
     width: 100%;
@@ -296,6 +302,7 @@ body{
 .menu__nav-item{
     font-size: 12px;
     padding-bottom: 10px;
+    font-family: 'Mtavruli';
 }
 .menu__item-title{
     font-size: 14px;
@@ -327,8 +334,8 @@ body{
 }
 /*page 10*/
 
-.pt-120{
-    padding-top: 120px;
+.pt-100{
+    padding-top: 100px;
 }
 
 /*Animations*/
@@ -337,11 +344,11 @@ body{
 }
 .section.active .animate-1{
     transform: translateY(0%);
-    transition: cubic-bezier(0.42, 0, 0.61, 1.66) 800ms;
+    transition: cubic-bezier(0.42, 0, 0.61, 1.66) 1000ms;
 }
 .section.active .animate-2{
     transform: translateY(0%);
-    transition: linear 1100ms;
+    transition: linear 1200ms;
 }
 .section{
     overflow: hidden;
