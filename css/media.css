@@ -36,7 +36,7 @@
     margin-right: 0;
   }
   .pt-tablet{
-    padding-top: 10px;
+    padding-top: 15px;
    }
    .pi img{
     height: 450px;
@@ -75,6 +75,14 @@
   }
   .db{
     margin-top: -80px;
+  }
+}
+@media only screen and (max-width: 375px){
+   .pi img{
+    height: 400px;
+   }
+   .pt-250 {
+    padding-top: 140px;
   }
 }
 
