@@ -23,14 +23,33 @@
 
 /* Mobile */
 @media only screen and (max-width: 576px) {
+    .animate-1, .animate-2{
+    transform: translateY(0);
+}
+   .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11, .section-12{
+    height: 100vh;
+   }
   .text-main{
     margin-left: 0;
   }
   .burger{
     margin-right: 0;
   }
+  .pt-tablet{
+    padding-top: 10px;
+   }
+   .pi img{
+    height: 450px;
+   }
   .page-title{
     background-size: contain;
+    margin-bottom: 0;
+  }
+  .pt-220 {
+    padding-top: 315px;
+  }
+  .pt-100 {
+    padding-top: 60px;
   }
   .mtavruli-text-main{
     font-size: 55px;
@@ -43,7 +62,7 @@
     font-size: 16px;
   }
   .pt-250 {
-    padding-top: 150px;
+    padding-top: 170px;
   }
   .icons-dowload{
     display: block;

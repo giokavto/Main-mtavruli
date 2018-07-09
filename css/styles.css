@@ -23,7 +23,7 @@ body{
 
 
 .section-1{
-    background: #ff5252 url(../img/layer1.png) no-repeat right bottom;
+    background: #ff5252 url(../img/1.png) no-repeat right bottom;
     background-size: cover;
 }
 /* Page 2 */
@@ -37,7 +37,7 @@ body{
 }
 /*page 4*/
 .section-4{
-    background: #ffffff url(../img/section-4-bg.png) no-repeat bottom center;
+    background: #ffffff url(../img/4.png) no-repeat bottom center;
     background-size: cover;
 }
 /*page 5*/
@@ -46,7 +46,7 @@ body{
 }
 /*page */
 .section-6{
-    background: #ffffff;
+    background: #ffffff url(../img/6.png) no-repeat bottom center;
 }
 
 /*page 7*/
@@ -54,7 +54,7 @@ body{
     {display: block !important;padding: 0 !important;height: auto !important;min-height: 100vh;}
 }
 .section-8{
-    background: #ffffff;
+    background: #ffffff url(../img/8.8.png) no-repeat left center;
 }
 .section-9{
     background: #ffffff url(../img/section-9-bg.png) no-repeat left center;
@@ -66,7 +66,8 @@ body{
     background: #ffffff url(../img/section-11-bg.png) no-repeat left center;
 }
 .section-12{
-    background: #ffffff url(../img/section-12-bg.png) no-repeat right center;;
+    background: #ffffff url(../img/12.png) no-repeat right center;
+    position: relative;
 }
 
 
@@ -289,6 +290,9 @@ body{
 .pt-250{
     padding-top: 250px;
 }
+.pt-150{
+    padding-top: 150px;
+}
 .pt-220{
     padding-top: 220px;
 }
@@ -365,6 +369,7 @@ body{
    left: 0;
    width: 100%;
    transform: translateY(0%);
+   bottom: 0;
 }
 .resources.active {
     display: none;
