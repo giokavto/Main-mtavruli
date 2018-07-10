@@ -258,7 +258,10 @@ body{
     color: #000;
     font-size: 17px;
 }
-
+ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    padding: 0 45px;
+  }
 
 /* Base Classes */
 .all-page{
@@ -317,6 +320,7 @@ body{
 /*page 7*/
 .img-unicode{
     margin-bottom: 20px;
+    margin-left: -70px;
 }
 
 /*page 9*/
