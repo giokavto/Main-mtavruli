@@ -169,6 +169,7 @@ body{
 .aso-nishani p {
     font-size: 12pt;
     width: 50%;
+    padding-bottom: 20px;
 }
 
 .aso-nishani {
@@ -178,6 +179,7 @@ body{
 .aso-nishani h1 {
     color: #ff6666;
     font-size: 20pt;
+    padding-bottom: 20px;
 }
 
 .main-page {
@@ -214,6 +216,7 @@ body{
 .let-i {
     width: 50px;
     height: 52px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;

@@ -46,7 +46,7 @@
     margin-bottom: 0;
   }
   .pt-220 {
-    padding-top: 315px;
+    padding-top: 440px;
   }
   .pt-100 {
     padding-top: 60px;
@@ -60,6 +60,22 @@
   }
   .page-9-title{
     font-size: 16px;
+  }
+  .aso-nishani {
+    padding-top: 5px;
+ }
+  .aso-nishani h1{
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .aso-nishani p{
+    font-size: 12px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    padding: 0 32px;
   }
   .pt-250 {
     padding-top: 170px;
@@ -77,6 +93,14 @@
     margin-top: -80px;
   }
 }
+
+@media only screen and (max-width: 414px){
+    ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    padding: 0 13px;
+  } 
+}
+
 @media only screen and (max-width: 375px){
    .pi img{
     height: 400px;
@@ -87,10 +111,21 @@
    .pt-100{
     padding-top: 17px;
    }
+   .pt-150 {
+    padding-top: 30px;
+   }
+    ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    padding: 0 11px;
+  }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 320px){
    .pt-250 {
     padding-top: 70px;
+  }
+  ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0;
+    padding: 0 7px;
   }
 }
 
