@@ -121,6 +121,7 @@ body{
     color: #ff5252;
     text-align: center;
     padding: 3px;
+    border-radius: 5px;
 }
 /*menu*/
 .menu{
@@ -302,7 +303,7 @@ ol ol, ol ul, ul ol, ul ul {
     padding-top: 150px;
 }
 .pt-220{
-    padding-top: 220px;
+    padding-top: 250px;
 }
 .text__page-4{
     color: #e3e3e4;

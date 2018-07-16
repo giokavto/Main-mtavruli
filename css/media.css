@@ -49,6 +49,10 @@
    .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8, .section-9, .section-10, .section-11, .section-12{
     height: 100vh;
    }
+   .section-4{
+    background-size: contain;
+    background-position: top;
+   }
    .img-unicode{
     margin-left: 0;
   }
@@ -69,7 +73,7 @@
     margin-bottom: 0;
   }
   .pt-220 {
-    padding-top: 440px;
+    padding-top: 400px;
     padding-left: 0;
   }
   .pt-100 {
@@ -128,13 +132,13 @@
    }
    .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
     background-image: none;
-    padding: 0;
-    font-size: 17px;
+    padding: 0 5px;
+    font-size: 13px;
    }
    .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    padding: 0;
-    font-size: 17px;
+    padding: 0 5px;
+    font-size: 13px;
    }
 }
 
@@ -163,7 +167,7 @@
     padding: 0 11px;
    }
   .pt-220 {
-    padding-top: 400px;
+    padding-top: 350px;
    }
 }
 @media only screen and (max-width: 320px){
