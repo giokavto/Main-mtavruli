@@ -140,6 +140,18 @@
     padding: 0 5px;
     font-size: 13px;
    }
+   .text-main {
+    margin-top: 0px;
+    }
+    .burger{
+    margin-top: 15px;
+    }
+    .bg{
+    background: #fff;  
+    }
+
+
+
 }
 
 @media only screen and (max-width: 414px){
