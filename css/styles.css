@@ -358,7 +358,7 @@ ol ol, ol ul, ul ol, ul ul {
 }
 .section.active .animate-1{
     transform: translateY(0%);
-    transition: cubic-bezier(0.42, 0, 0.61, 1.66) 1000ms;
+    transition: linear 1200ms;
 }
 .section.active .animate-2{
     transform: translateY(0%);
