@@ -21,9 +21,11 @@
             <div class="header-main">
                 <div class="main">
                     <div class="col-9 col-lg-9 offset-lg-1">
-                        <div class="text-main"><a href="#">
-                            <img class="logo_mtavruli" src="img/logo.mtavruli.svg" alt="title">
-                        </a></div>
+                        <div class="text-main">
+                            <a href="#">
+                                <img class="logo_mtavruli" src="img/logo.mtavruli.svg" alt="title">
+                            </a>
+                        </div>
                     </div>
                     <div class="col-1 col-lg-1">
                         <div class="burger" id="burger">
@@ -39,38 +41,56 @@
     <!-- navigatio -->
     <nav class="menu anim container-fluid">
         <div class="menu__item">
-            <div class="menu__item-title pb-20"><a href="#">შესახებ</a></div>
+            <div class="menu__item-title pb-20">
+                <a href="#">შესახებ</a>
+            </div>
         </div>
         <div class="menu__item">
-            <div class="menu__item-title pb-20"><a href="#firstPage">ისტორია</a></div>
+            <div class="menu__item-title pb-20">
+                <a href="#firstPage">ისტორია</a>
+            </div>
             <ul class="menu__nav">
-                <li class="menu__nav-item"><a href="#secondPage">პრობლემა კომპიუტერებში</a></li>
-                <li class="menu__nav-item"><a href="#thirdPage">ყველა ქართული ასო-ნიშანი</a></li>
+                <li class="menu__nav-item">
+                    <a href="#secondPage">პრობლემა კომპიუტერებში</a>
+                </li>
+                <li class="menu__nav-item">
+                    <a href="#thirdPage">ყველა ქართული ასო-ნიშანი</a>
+                </li>
             </ul>
         </div>
         <div class="menu__item">
-            <div class="menu__item-title pb-20"><a href="#fourthPage">კომპიუტერებში ასახვა</a></div>
+            <div class="menu__item-title pb-20">
+                <a href="#fourthPage">კომპიუტერებში ასახვა</a>
+            </div>
         </div>
         <div class="menu__item">
             <div class="menu__item-title pb-20">როგორ დავწეროთ</div>
             <ul class="menu__nav">
-                <li class="menu__nav-item"><a href="#fifthPage">როგორ დავწეროთ მთავრული დღეს</a></li>
-                <li class="menu__nav-item"><a href="#sixthPage">მომავალი</a></li>
+                <li class="menu__nav-item" data-menuanchor="eighthPage">
+                    <a href="#fifthPage">როგორ დავწეროთ მთავრული დღეს</a>
+                </li>
+                <li class="menu__nav-item">
+                    <a href="#sixthPage">მომავალი</a>
+                </li>
             </ul>
         </div>
         <div class="menu__item">
             <div class="menu__item-title pb-20">რა გავითვალისწინოთ</div>
             <ul class="menu__nav">
-                <li class="menu__nav-item"><a href="#seventhPage">ინფორმაცია დეველოპერებს</a></li>
-                <li class="menu__nav-item"><a href="#eighthPage">ინფორმაცია დიზაინერებს</a></li>
+                <li class="menu__nav-item">
+                    <a href="#seventhPage">ინფორმაცია დეველოპერებს</a>
+                </li>
+                <li class="menu__nav-item">
+                    <a href="#eighthPage">ინფორმაცია დიზაინერებს</a>
+                </li>
             </ul>
         </div>
     </nav>
     <main id="fullpage">
-        <section class="section section-1">
+        <section class="section section-1" id="mainPage" data-anchor="main">
             <div class="container">
                 <div class="main-page">
-                    <h1 class="mtavruli-text-main">მთავრული</h1>
+                    <h1 class="mtavruli-text-main">ᲛᲗᲐᲕᲠᲣᲚᲘ</h1>
                     <div class="mtavruli-text-main2">
                         <p>
                             მთავრული ეწოდება თანამედროვე ქართული დამწერლობის ზედა რეგისტრის ასოებს, რომელიც ძირითადად გამოიყენება სათაურების დასაწერად და მნიშვნელოვანი ტექსტების გამოსაყოფად. ეს ასო-ნიშები 2018 წლამდე ოფიციალურ სტანდარტში (unicode) მოთავსეული არ იყო, რაც ბევრ პრობლემას ქმნიდა. საიტზე ამ თემის გარშემო დეტალებს განვიხილავთ.
@@ -80,12 +100,12 @@
             </div>
         </section>
         <!-- page 2 -->
-        <section class="section section-2" id="firstPage">
+        <section class="section section-2" id="firstPage" data-anchor="firstPage">
             <div class="container-fluid">
                 <div class="row pt-tablet">
                     <div class="col-12 col-lg-5 offset-lg-1 flex-ac">
                         <div class="page__content animate-1">
-                            <h2 class="page__title">ისტორია</h2>
+                            <h2 class="page__title">ᲘᲡᲢᲝᲠᲘᲐ</h2>
                             <p class="page__text">
                                 მთავრული ასო-ნიშნები პირველად 1728 წელს გამოჩნდა, როდესაც მოლოლოზ თბილელმა
                                 თავის ანდერძში ზომაში გაზრდილი მხედრული ასოები გამოიყენა და იქვე თქვა რომ ეს
@@ -106,7 +126,7 @@
             </div>
         </section>
         <!-- page 3 -->
-        <section class="section section-3">
+        <section class="section section-3" id="Page3" data-anchor="secondPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-5 offset-lg-1 animate-2">
@@ -116,7 +136,7 @@
                     </div>
                     <div class="col-12 col-lg-5 flex-ac">
                         <div class="page__content animate-1">
-                            <h2 class="page__title">ისტორია</h2>
+                            <h2 class="page__title">ᲘᲡᲢᲝᲠᲘᲐ</h2>
                             <p class="page__text">
                                 1866 წელს გამოვიდა გაზეთი დროება, სადაც მთავრული ასოები
                                 წერილის შემდეგ სიტყვის დამწყებ ასოთაც კი გამოიყენებოდა.
@@ -129,7 +149,7 @@
             </div>
         </section>
         <!-- page 4 -->
-        <section class="section section-4">
+        <section class="section section-4" id="page4" data-anchor="thirdPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-7 offset-lg-1">
@@ -137,7 +157,7 @@
                     </div>
                     <div class="col-12 col-lg-3 flex-ac">
                         <div class="page__content pt-220 animate-1">
-                            <h2 class="page__title">ისტორია</h2>
+                            <h2 class="page__title">ᲘᲡᲢᲝᲠᲘᲐ</h2>
                             <p class="page__text text__page-4">
                                 საბჭოთა კავშირის დამყარების შემდეგ მთავრული ასოები მხოლოდ
                                 სათაურებშიღა შემორჩა და ისინი ALL CAPS ფუნქციით გამოიყენებოდნენ.
@@ -153,12 +173,12 @@
             </div>
         </section>
         <!-- page 5 -->
-        <section class="section section-5" id="secondPage">
+        <section class="section section-5" id="secondPage"  data-anchor="fourthPage">
             <div class="container-fluid">
                 <div class="row pt-tablet">
                     <div class="col-12 col-lg-5 offset-lg-1 flex-ac">
                         <div class="page__content animate-1">
-                            <h2 class="page__title">პრობლემა კომპიუტერებში</h2>
+                            <h2 class="page__title">ᲞᲠᲝᲑᲚᲔᲛᲐ ᲙᲝᲛᲞᲘᲣᲢᲔᲠᲔᲑᲨᲘ</h2>
                             <p class="page__text">
                                 თანამედროვე რეალობაში სირთულეს იწვევდა ის, რომ საერთაშორისო
                                 სტანდარტში Unicode არ არსებობდა ამ ასოებისათვის დამოუკიდებელი
@@ -178,7 +198,7 @@
             </div>
         </section>
         <!-- page 7 -->
-        <section class="section section-7" id="thirdPage">
+        <section class="section section-7" id="thirdPage" data-anchor="fifthPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-8 offset-lg-2">
@@ -196,10 +216,10 @@
                 </div>
             </div>
         </section>
-        <!-- page  -->
-        <section class="section section-6 container" id="">
+        <!-- page 6 -->
+        <section class="section section-6 container" id="page" data-anchor="sixthPage">
             <article class="aso-nishani">
-                <h1>ყველა ქართული ასო-ნიშანი</h1>
+                <h1>ᲧᲕᲔᲚᲐ ᲥᲐᲠᲗᲣᲚᲘ ᲐᲡᲝ-ᲜᲘᲨᲐᲜᲘ</h1>
                 <p>აქ მოცემულია ყველა ქართული ასო-ნიშანი და სიმბოლო რომელიც უნიკოდის მიერაა მხარდაჭერილი. ცხრილში მოცემულია დიაკრიტიკული ნიშებიც, რომელიც საქართველოში არსებული სხვადასხვა ენისათვის გამოიყენება. მათ ცალკე კოდები არ აქვთ მინიჭებული თუმცა მათი გენერირება კომბინირებადი ნიშების მეშვეობით არის შესაძლებელი.</p>
                 <div id="btns">
                     <button class="btn my-btn active" data-n="1">ტაბი 1 სახელი</button>
@@ -221,9 +241,8 @@
                 </div>    
             </article>
         </section>
-        
         <!-- page  8-->
-        <section class="section section-8" id="fourthPage">
+        <section class="section section-8" id="fourthPage"  data-anchor="seventhPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-5 offset-lg-1">
@@ -233,7 +252,7 @@
                     </div>
                     <div class="col-12 col-lg-5 flex-ac">
                         <div class="page__content animate-1">
-                            <h2 class="page__title">კომპიუტერებში ასახვა</h2>
+                            <h2 class="page__title">Კომპიუტერში Ასახვა</h2>
                             <p class="page__text">
                                 კომპიუტერული სისტემის მწარმოებლები, როგორიცაა Apple, Microsoft,
                                 Google და სხვა, თავიანთ სისტემებში ნელ-ნელა მოახდენენ აღნიშნული
@@ -251,21 +270,25 @@
             </div>
         </section>
         <!-- page  9-->
-        <section class="section section-9" id="fifthPage">
+        <section class="section section-9" id="fifthPage"  data-anchor="eighthPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-5 flex-ac offset-lg-1">
                         <div class="page__content pt-250 animate-1">
-                            <h2 class="page__title page-9-title">როგორ დავწერო მთავრული დღეს</h2>
+                            <h2 class="page__title page-9-title">ᲠᲝᲒᲝᲠ ᲓᲐᲕᲬᲔᲠᲝ ᲛᲗᲐᲕᲠᲣᲚᲘ ᲓᲦᲔᲡ</h2>
                             <p class="page__text page__9-text">
                                 იმის გამო, რომ სისტემის მწარმოებელ კომპანიებს გარკვეული დრო ჭირდებათ მთავრული ასოების ასასახად, ჩვენ შეგვიძლია მთავრული ასო-ნიშნები გამოვიყენოთ კონვერტერის მევეობით ან კლავიატურის სიმულატორით, რომელსაც ნახავთ აქ: 
                             </p>
                             <div class="icons-dowload animate-2">
-                                <a class="download-icon" href="">
+                                <a class="download-icon" href="./BPG_Fonts_unicode_11.zip">
                                     <img class="" src="img/DownloadIcon.png" alt="title">
                                 </a>
-                                <button class="btn my-btn active" data-n="1">გადმოწერე ფონტი</button>
-                                <button class="btn my-btn active" data-n="1">WWW.ANBANI.GE</button>
+                                <a href="./BPG_Fonts_unicode_11.zip">
+                                    <button class="btn my-btn active" data-n="1" >გადმოწერე ფონტი</button>
+                                </a>
+                                <a href="https://anbani.ge/">
+                                    <button class="btn my-btn active" data-n="1">WWW.ANBANI.GE</button>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -276,7 +299,7 @@
             </div>
         </section>
         <!-- page 10 -->
-        <section class="section section-10" id="sixthPage">
+        <section class="section section-10" id="sixthPage"  data-anchor="ninthPage">
              <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-5 flex-ac offset-lg-1">
@@ -294,12 +317,12 @@
             </div>
         </section>
         <!-- page 11 -->
-        <section class="section section-11" id="seventhPage">
+        <section class="section section-11" id="seventhPage"  data-anchor="tenthPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-5 flex-ac offset-lg-1">
                         <div class="page__content pt-250 animate-1">
-                            <h2 class="page__title">ინფორმაცია დეველოპერებს</h2>
+                            <h2 class="page__title">ᲘᲜᲤᲝᲠᲛᲐᲪᲘᲐ ᲓᲔᲕᲔᲚᲝᲞᲔᲠᲔᲑᲡ</h2>
                             <p class="page__text">
                                 ტექნიკური კუთხით ბევრი რამ არ იცვლება თუმცა არსებობს რაღაც საკითხები, რაშეც ძეიძლება დეველოპერებმა და პროგრამისტებამა ყურადღება გაამახვილონ. პირველ რიგში ეს შეეხება ბაზების ახალ სტანდარტზე მორგებას და სისტემების განახლებას. ეს ყველაფერი ვრცლადაა აღწერილი ამ ბლოგში, რაც შეიძება საინტერესო იყოს: 
                             </p>
@@ -315,12 +338,12 @@
             </div>
         </section>
         <!-- page 12 -->
-        <section class="section section-12" id="eighthPage">
+        <section class="section section-12" id="eighthPage"  data-anchor="11thPage">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-5 flex-ac offset-lg-1">
                         <div class="page__content pt-250 animate-1">
-                            <h2 class="page__title">ინფორმაცია დიზაინერებს</h2>
+                            <h2 class="page__title">ᲘᲜᲤᲝᲠᲛᲐᲪᲘᲐ ᲓᲘᲖᲐᲘᲜᲔᲠᲔᲑᲡ</h2>
                             <p class="page__text">
                                 დიზაინერები, რომლებიც შრიფტის მიმართულებით მშაობენ, უნდა გაითვალისწინონ თავად ამ ასო-ნიშნების სპეციფიკაცია და მათი განსხვავებები მხედრულ ასოებთან. ასევე ის ახალი პოზიციები, სადაც მტავრული ასო-ნიშები უნდა იყვენენ განთავსებული ფონტ-დაილის შექმნისას. ეს პოზიციები მოთავსებულია 1C90 – 1CBF კოდებს შორის. 
                                 რახ შეეხება თავად ფორმებს მთავრული ასო-ნიშები გამოირჩევიან მოზრდილი თვალითა და განიერი ფორმებით, შედარებით სქელი შტრიხის სისქითა და განსხვავებული სიმაღლით, ისევე როგორც ლათინური, ბერძნული ან კირილიცური Uppercase ასოები. 
@@ -376,10 +399,9 @@
 <script>
     var let_list = document.getElementById("letter_list");
     var btns = document.getElementById('btns');
-    var abc1 = ["Ⴀ", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
+    var abc1 = ["", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
     var abc2 = ["Ⴀ", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
     var abc3 = ["Ⴀ", "Ⴁ", "Ⴂ", "Ⴃ", "Ⴄ", "Ⴅ", "Ⴆ", "Ⴇ", "Ⴈ", "Ⴉ", "Ⴊ", "Ⴋ", "Ⴌ", "Ⴍ", "Ⴎ", "Ⴏ", "Ⴐ", "Ⴑ", "Ⴒ", "Ⴓ", "Ⴔ", "Ⴕ", "Ⴖ", "Ⴗ", "Ⴘ", "Ⴙ", "Ⴚ", "Ⴛ", "Ⴜ", "Ⴝ", "Ⴞ", "Ⴟ", "Ⴠ", "Ⴡ", "Ⴢ", "Ⴣ", "Ⴤ", "Ⴥ", "Ⴧ", "Ⴭ", "ⴀ", "ⴁ", "ⴂ", "ⴃ", "ⴄ", "ⴅ", "ⴆ", "ⴇ", "ⴈ", "ⴉ", "ⴊ", "ⴋ", "ⴌ", "ⴍ", "ⴎ", "ⴏ", "ⴐ", "ⴑ", "ⴒ", "ⴓ", "ⴔ", "ⴕ", "ⴖ", "ⴗ", "ⴘ", "ⴙ", "ⴚ", "ⴛ", "ⴜ", "ⴝ", "ⴞ", "ⴟ"];
-
 
     for(let i = 0; i < btns.children.length; i++){
         btns.children[i].addEventListener('click', function() {

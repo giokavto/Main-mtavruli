@@ -1,29 +1,9 @@
 @font-face {
-    font-family: 'DejaVu Sans';
-    src: url('../fonts/dejavu-sans-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/dejavu-sans-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/dejavu-sans-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/dejavu-sans-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/dejavu-sans-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/dejavu-sans-webfont.svg#dejavu_sansregular') format('svg'); /* Legacy iOS */
+    font-family: 'dejavu';
+    src: url('../fonts/DejaVuSans.ttf');
 }
 
 @font-face {
-    font-family: 'Mtavruli';
-    src: url('../fonts/bpg-nino-mtavruli-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/bpg-nino-mtavruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/bpg-nino-mtavruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/bpg-nino-mtavruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/bpg-nino-mtavruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/bpg-nino-mtavruli-webfont.svg#bpg_nino_mtavruliregular') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'Mtavruli Bold';
-    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+    font-family: 'dejavu-Bold';
+    src: url('../fonts/DejaVuSans-Bold.ttf'); 
 }

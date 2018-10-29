@@ -51,7 +51,7 @@ body{
 
 /*page 7*/
 .section-7{
-    {display: block !important;padding: 0 !important;height: auto !important;min-height: 100vh;}
+
 }
 .section-8{
     background: #ffffff url(../img/8.8.png) no-repeat left center;
@@ -121,7 +121,7 @@ body{
     color: #ff5252;
     text-align: center;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 /*menu*/
 .menu{
@@ -157,22 +157,26 @@ body{
 
 .mtavruli-text-main {
     color: #fff;
-    font-size: 180px;
+    font-size: 140px;
     text-align: center;
-    font-family: 'Mtavruli Bold';
+    font-family: 'dejavu-bold';
+    text-transform: capitalize;
 }
 .mtavruli-text-main2 {
     width: 58%;
     text-align: center;
-    margin: 0 auto;
+    margin: 15px auto;
     color: #fff;
     font-size: 14px;
-    font-family: 'Mtavruli';
+    font-family: 'dejavu';
+    line-height: 1.3;
 }
 .aso-nishani p {
     font-size: 12pt;
     width: 50%;
     padding-bottom: 20px;
+    line-height: 1.3;
+    font-family: 'dejavu';
 }
 
 .aso-nishani {
@@ -183,6 +187,7 @@ body{
     color: #ff6666;
     font-size: 20pt;
     padding-bottom: 20px;
+    font-family: 'dejavu-bold';
 }
 
 .main-page {
@@ -201,6 +206,8 @@ body{
     border-radius: 5px;
     border-color: #ccc;
     margin-bottom: 24px;
+    font-family: 'dejavu-bold';
+    box-shadow: none !important;
 }
 
 .my-btn.active,.my-btn:hover {
@@ -225,6 +232,7 @@ body{
     text-align: center;
     flex: 0 0 6%;
     border-bottom: solid 1px #ccc;
+    font-family: 'dejavu';
 }
 
 .letter {
@@ -279,13 +287,14 @@ ol ol, ol ul, ul ol, ul ul {
     /*line-height: 3px;*/
     color: #ff5252;
     margin-bottom: 20px;
-    font-family: 'Mtavruli Bold';
+    font-family: 'dejavu-bold';
 }
 .page__text{
     font-size: 12px;
     line-height: 17px;
     color: #181818;
-    font-family: 'Mtavruli';
+    font-family: 'dejavu';
+    line-height: 1.3;
 }
 .page__image img{
     width: 100%;
@@ -315,10 +324,11 @@ ol ol, ol ul, ul ol, ul ul {
 .menu__nav-item{
     font-size: 12px;
     padding-bottom: 10px;
-    font-family: 'Mtavruli';
+    font-family: 'dejavu';
 }
 .menu__item-title{
     font-size: 14px;
+    font-family: 'dejavu-bold';
 }
 /*page 7*/
 .img-unicode{
